@@ -10,9 +10,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/WebCrawler$_mysql.coverage" NAME="安卓壁纸_mysql Coverage Results" MODIFIED="1521997408198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WebCrawler$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1521988673134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WebCrawler$test.coverage" NAME="test Coverage Results" MODIFIED="1521997247681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WebCrawler$_mysql.coverage" NAME="安卓壁纸_mysql Coverage Results" MODIFIED="1522042869696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WebCrawler$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1522037716678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WebCrawler$test.coverage" NAME="test Coverage Results" MODIFIED="1522037821942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WebCrawler$mysql_test.coverage" NAME="mysql_test Coverage Results" MODIFIED="1521997144028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -29,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="a安卓壁纸专题.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="a安卓壁纸专题.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/a安卓壁纸专题.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-722">
+              <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -42,14 +42,14 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+            <state relative-caret-position="798">
+              <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
               <folding>
                 <element signature="e#42#55#0" expanded="true" />
-                <marker date="1521997143879" expanded="true" signature="424:494" ph="INSERT INTO picture_info... " />
-                <marker date="1521997143879" expanded="true" signature="698:748" ph="SELECT name,... trade" />
-                <marker date="1521997143879" expanded="true" signature="942:997" ph="UPDATE picture_info... " />
-                <marker date="1521997143879" expanded="true" signature="1122:1166" ph="DELETE FROM picture_info... " />
+                <marker date="1522037821815" expanded="true" signature="424:494" ph="INSERT INTO picture_info... " />
+                <marker date="1522037821815" expanded="true" signature="698:748" ph="SELECT name,... trade" />
+                <marker date="1522037821815" expanded="true" signature="942:997" ph="UPDATE picture_info... " />
+                <marker date="1522037821815" expanded="true" signature="1122:1166" ph="DELETE FROM picture_info... " />
               </folding>
             </state>
           </provider>
@@ -58,8 +58,8 @@
       <file leaf-file-name="mysql_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysql_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3459">
-              <caret line="195" column="35" lean-forward="true" selection-start-line="195" selection-start-column="35" selection-end-line="195" selection-end-column="35" />
+            <state relative-caret-position="3477">
+              <caret line="195" column="35" lean-forward="false" selection-start-line="195" selection-start-column="35" selection-end-line="195" selection-end-column="35" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
                 <marker date="1521996772228" expanded="true" signature="5555:5602" ph="SELECT name picture_info" />
@@ -69,29 +69,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="安卓壁纸_mysql.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/安卓壁纸_mysql.py">
+      <file leaf-file-name="哔哩哔哩_mysql.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/哔哩哔哩_mysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="206" column="14" lean-forward="true" selection-start-line="206" selection-start-column="14" selection-end-line="206" selection-end-column="14" />
+            <state relative-caret-position="399">
+              <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding>
-                <element signature="e#24#33#0" expanded="true" />
-                <marker date="1521997408085" expanded="true" signature="5497:5544" ph="SELECT name picture_info" />
-                <marker date="1521997408085" expanded="true" signature="5756:5866" ph="INSERT INTO picture_info... " />
+                <marker date="1522038810180" expanded="true" signature="5162:5209" ph="SELECT name picture_info" />
+                <marker date="1522038810180" expanded="true" signature="5419:5542" ph="INSERT INTO picture_info... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="哔哩哔哩_mysql.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/哔哩哔哩_mysql.py">
+      <file leaf-file-name="哔哩哔哩_私服.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/哔哩哔哩_私服.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+            <state relative-caret-position="76">
+              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="安卓壁纸_mysql.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/安卓壁纸_mysql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="65" column="6" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
               <folding>
-                <marker date="1521993688420" expanded="true" signature="4618:4665" ph="SELECT name picture_info" />
-                <marker date="1521993688420" expanded="true" signature="4877:4977" ph="INSERT INTO picture_info... " />
+                <element signature="e#771#780#0" expanded="true" />
+                <marker date="1522038958337" expanded="true" signature="6279:6326" ph="SELECT name picture_info" />
+                <marker date="1522038958337" expanded="true" signature="6538:6648" ph="INSERT INTO picture_info... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="哔哩哔哩_cos.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/哔哩哔哩_cos.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1900">
+              <caret line="114" column="15" lean-forward="false" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,9 +154,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test2.py" />
         <option value="$PROJECT_DIR$/mysql_test.py" />
+        <option value="$PROJECT_DIR$/test2.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/哔哩哔哩_mysql.py" />
         <option value="$PROJECT_DIR$/安卓壁纸_mysql.py" />
       </list>
     </option>
@@ -138,10 +169,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="440" />
-    <option name="y" value="452" />
-    <option name="width" value="718" />
-    <option name="height" value="621" />
+    <option name="x" value="132" />
+    <option name="y" value="85" />
+    <option name="width" value="995" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -158,8 +189,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,6 +241,25 @@
       <module name="WebCrawler" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/安卓壁纸_mysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="哔哩哔哩_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WebCrawler" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/哔哩哔哩_mysql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,8 +332,8 @@
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Python.安卓壁纸_mysql" />
         <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.mysql_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mysql_test" />
       </list>
     </recent_temporary>
   </component>
@@ -304,16 +354,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="440" y="452" width="718" height="621" extended-state="0" />
-    <editor active="true" />
+    <frame x="132" y="85" width="995" height="948" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46993864" sideWeight="0.5037433" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4180328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46993864" sideWeight="0.49625668" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25273523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2737968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31058824" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -364,68 +413,327 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/a安卓壁纸专题.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
           <folding>
             <element signature="e#42#55#0" expanded="true" />
-            <marker date="1521997143879" expanded="true" signature="424:494" ph="INSERT INTO picture_info... " />
-            <marker date="1521997143879" expanded="true" signature="698:748" ph="SELECT name,... trade" />
-            <marker date="1521997143879" expanded="true" signature="942:997" ph="UPDATE picture_info... " />
-            <marker date="1521997143879" expanded="true" signature="1122:1166" ph="DELETE FROM picture_info... " />
+            <marker date="1522037821815" expanded="true" signature="424:494" ph="INSERT INTO picture_info... " />
+            <marker date="1522037821815" expanded="true" signature="698:748" ph="SELECT name,... trade" />
+            <marker date="1522037821815" expanded="true" signature="942:997" ph="UPDATE picture_info... " />
+            <marker date="1522037821815" expanded="true" signature="1122:1166" ph="DELETE FROM picture_info... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test2.py">
+    <entry file="file://$PROJECT_DIR$/哔哩哔哩_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="399">
+          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding>
-            <element signature="e#42#55#0" expanded="true" />
-            <marker date="1521989152469" expanded="true" signature="389:466" ph="SELECT name picture_info" />
-            <marker date="1521989152469" expanded="true" signature="622:719" ph="INSERT INTO picture_info... " />
+            <marker date="1522038810180" expanded="true" signature="5162:5209" ph="SELECT name picture_info" />
+            <marker date="1522038810180" expanded="true" signature="5419:5542" ph="INSERT INTO picture_info... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test2.py">
+    <entry file="file://$PROJECT_DIR$/mysql_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="3477">
+          <caret line="195" column="35" lean-forward="false" selection-start-line="195" selection-start-column="35" selection-end-line="195" selection-end-column="35" />
           <folding>
-            <element signature="e#42#55#0" expanded="true" />
-            <marker date="1521989152469" expanded="true" signature="389:466" ph="SELECT name picture_info" />
-            <marker date="1521989152469" expanded="true" signature="622:719" ph="INSERT INTO picture_info... " />
+            <element signature="e#24#33#0" expanded="true" />
+            <marker date="1521996772228" expanded="true" signature="5555:5602" ph="SELECT name picture_info" />
+            <marker date="1521996772228" expanded="true" signature="5812:5922" ph="INSERT INTO picture_info... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/哔哩哔哩_私服.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="76">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/安卓壁纸_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="65" column="6" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+          <folding>
+            <element signature="e#771#780#0" expanded="true" />
+            <marker date="1522038958337" expanded="true" signature="6279:6326" ph="SELECT name picture_info" />
+            <marker date="1522038958337" expanded="true" signature="6538:6648" ph="INSERT INTO picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/哔哩哔哩_cos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        <state relative-caret-position="1900">
+          <caret line="114" column="15" lean-forward="false" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a安卓壁纸专题.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5472">
+          <caret line="302" column="22" lean-forward="false" selection-start-line="302" selection-start-column="22" selection-end-line="302" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <folding>
+            <element signature="e#42#55#0" expanded="true" />
+            <marker date="1522037821815" expanded="true" signature="424:494" ph="INSERT INTO picture_info... " />
+            <marker date="1522037821815" expanded="true" signature="698:748" ph="SELECT name,... trade" />
+            <marker date="1522037821815" expanded="true" signature="942:997" ph="UPDATE picture_info... " />
+            <marker date="1522037821815" expanded="true" signature="1122:1166" ph="DELETE FROM picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3477">
+          <caret line="195" column="35" lean-forward="false" selection-start-line="195" selection-start-column="35" selection-end-line="195" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+            <marker date="1521996772228" expanded="true" signature="5555:5602" ph="SELECT name picture_info" />
+            <marker date="1521996772228" expanded="true" signature="5812:5922" ph="INSERT INTO picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/安卓壁纸_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="65" column="6" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+          <folding>
+            <element signature="e#771#780#0" expanded="true" />
+            <marker date="1522038958337" expanded="true" signature="6279:6326" ph="SELECT name picture_info" />
+            <marker date="1522038958337" expanded="true" signature="6538:6648" ph="INSERT INTO picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/哔哩哔哩_私服.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/哔哩哔哩_cos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="114" column="15" lean-forward="false" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/哔哩哔哩_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        <state relative-caret-position="399">
+          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding>
-            <marker date="1521993688420" expanded="true" signature="4618:4665" ph="SELECT name picture_info" />
-            <marker date="1521993688420" expanded="true" signature="4877:4977" ph="INSERT INTO picture_info... " />
+            <marker date="1522038810180" expanded="true" signature="5162:5209" ph="SELECT name picture_info" />
+            <marker date="1522038810180" expanded="true" signature="5419:5542" ph="INSERT INTO picture_info... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a安卓壁纸专题.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5472">
+          <caret line="302" column="22" lean-forward="false" selection-start-line="302" selection-start-column="22" selection-end-line="302" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3477">
+          <caret line="195" column="35" lean-forward="false" selection-start-line="195" selection-start-column="35" selection-end-line="195" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+            <marker date="1521996772228" expanded="true" signature="5555:5602" ph="SELECT name picture_info" />
+            <marker date="1521996772228" expanded="true" signature="5812:5922" ph="INSERT INTO picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/哔哩哔哩_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <marker date="1522038810180" expanded="true" signature="5162:5209" ph="SELECT name picture_info" />
+            <marker date="1522038810180" expanded="true" signature="5419:5542" ph="INSERT INTO picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/哔哩哔哩_私服.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/安卓壁纸_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="65" column="6" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+          <folding>
+            <element signature="e#771#780#0" expanded="true" />
+            <marker date="1522038958337" expanded="true" signature="6279:6326" ph="SELECT name picture_info" />
+            <marker date="1522038958337" expanded="true" signature="6538:6648" ph="INSERT INTO picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/哔哩哔哩_cos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="114" column="15" lean-forward="false" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="e#42#55#0" expanded="true" />
+            <marker date="1522037821815" expanded="true" signature="424:494" ph="INSERT INTO picture_info... " />
+            <marker date="1522037821815" expanded="true" signature="698:748" ph="SELECT name,... trade" />
+            <marker date="1522037821815" expanded="true" signature="942:997" ph="UPDATE picture_info... " />
+            <marker date="1522037821815" expanded="true" signature="1122:1166" ph="DELETE FROM picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a安卓壁纸专题.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5472">
+          <caret line="302" column="22" lean-forward="false" selection-start-line="302" selection-start-column="22" selection-end-line="302" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="52" column="15" lean-forward="false" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+          <folding>
+            <element signature="e#42#55#0" expanded="true" />
+            <marker date="1522037821815" expanded="true" signature="424:494" ph="INSERT INTO picture_info... " />
+            <marker date="1522037821815" expanded="true" signature="698:748" ph="SELECT name,... trade" />
+            <marker date="1522037821815" expanded="true" signature="942:997" ph="UPDATE picture_info... " />
+            <marker date="1522037821815" expanded="true" signature="1122:1166" ph="DELETE FROM picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3477">
+          <caret line="195" column="35" lean-forward="false" selection-start-line="195" selection-start-column="35" selection-end-line="195" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+            <marker date="1521996772228" expanded="true" signature="5555:5602" ph="SELECT name picture_info" />
+            <marker date="1521996772228" expanded="true" signature="5812:5922" ph="INSERT INTO picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/哔哩哔哩_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <marker date="1522038810180" expanded="true" signature="5162:5209" ph="SELECT name picture_info" />
+            <marker date="1522038810180" expanded="true" signature="5419:5542" ph="INSERT INTO picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/哔哩哔哩_私服.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/安卓壁纸_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="e#771#780#0" expanded="true" />
+            <marker date="1522038958337" expanded="true" signature="6279:6326" ph="SELECT name picture_info" />
+            <marker date="1522038958337" expanded="true" signature="6538:6648" ph="INSERT INTO picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/哔哩哔哩_cos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="114" column="15" lean-forward="false" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -437,9 +745,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding>
+            <element signature="e#42#55#0" expanded="true" />
+            <marker date="1522037821815" expanded="true" signature="424:494" ph="INSERT INTO picture_info... " />
+            <marker date="1522037821815" expanded="true" signature="698:748" ph="SELECT name,... trade" />
+            <marker date="1522037821815" expanded="true" signature="942:997" ph="UPDATE picture_info... " />
+            <marker date="1522037821815" expanded="true" signature="1122:1166" ph="DELETE FROM picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysql_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3459">
+        <state relative-caret-position="3477">
           <caret line="195" column="35" lean-forward="true" selection-start-line="195" selection-start-column="35" selection-end-line="195" selection-end-column="35" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
@@ -449,39 +771,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/哔哩哔哩_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        <state relative-caret-position="1957">
+          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding>
-            <element signature="e#42#55#0" expanded="true" />
-            <marker date="1521997143879" expanded="true" signature="424:494" ph="INSERT INTO picture_info... " />
-            <marker date="1521997143879" expanded="true" signature="698:748" ph="SELECT name,... trade" />
-            <marker date="1521997143879" expanded="true" signature="942:997" ph="UPDATE picture_info... " />
-            <marker date="1521997143879" expanded="true" signature="1122:1166" ph="DELETE FROM picture_info... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/安卓壁纸.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="251" column="28" lean-forward="true" selection-start-line="250" selection-start-column="7" selection-end-line="251" selection-end-column="28" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
+            <marker date="1522038810180" expanded="true" signature="5162:5209" ph="SELECT name picture_info" />
+            <marker date="1522038810180" expanded="true" signature="5419:5542" ph="INSERT INTO picture_info... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/安卓壁纸_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="3705">
           <caret line="206" column="14" lean-forward="true" selection-start-line="206" selection-start-column="14" selection-end-line="206" selection-end-column="14" />
           <folding>
-            <element signature="e#24#33#0" expanded="true" />
-            <marker date="1521997408085" expanded="true" signature="5497:5544" ph="SELECT name picture_info" />
-            <marker date="1521997408085" expanded="true" signature="5756:5866" ph="INSERT INTO picture_info... " />
+            <element signature="e#771#780#0" expanded="true" />
+            <marker date="1522038958337" expanded="true" signature="6279:6326" ph="SELECT name picture_info" />
+            <marker date="1522038958337" expanded="true" signature="6538:6648" ph="INSERT INTO picture_info... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#42#55#0" expanded="true" />
+            <marker date="1522037821815" expanded="true" signature="424:494" ph="INSERT INTO picture_info... " />
+            <marker date="1522037821815" expanded="true" signature="698:748" ph="SELECT name,... trade" />
+            <marker date="1522037821815" expanded="true" signature="942:997" ph="UPDATE picture_info... " />
+            <marker date="1522037821815" expanded="true" signature="1122:1166" ph="DELETE FROM picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/哔哩哔哩_cos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="114" column="15" lean-forward="false" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/安卓壁纸.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3477">
+          <caret line="195" column="35" lean-forward="false" selection-start-line="195" selection-start-column="35" selection-end-line="195" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+            <marker date="1521996772228" expanded="true" signature="5555:5602" ph="SELECT name picture_info" />
+            <marker date="1521996772228" expanded="true" signature="5812:5922" ph="INSERT INTO picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/安卓壁纸_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="65" column="6" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+          <folding>
+            <element signature="e#771#780#0" expanded="true" />
+            <marker date="1522038958337" expanded="true" signature="6279:6326" ph="SELECT name picture_info" />
+            <marker date="1522038958337" expanded="true" signature="6538:6648" ph="INSERT INTO picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <folding>
+            <element signature="e#42#55#0" expanded="true" />
+            <marker date="1522037821815" expanded="true" signature="424:494" ph="INSERT INTO picture_info... " />
+            <marker date="1522037821815" expanded="true" signature="698:748" ph="SELECT name,... trade" />
+            <marker date="1522037821815" expanded="true" signature="942:997" ph="UPDATE picture_info... " />
+            <marker date="1522037821815" expanded="true" signature="1122:1166" ph="DELETE FROM picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/哔哩哔哩_私服.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/哔哩哔哩_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <marker date="1522038810180" expanded="true" signature="5162:5209" ph="SELECT name picture_info" />
+            <marker date="1522038810180" expanded="true" signature="5419:5542" ph="INSERT INTO picture_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a安卓壁纸专题.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-722">
+          <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

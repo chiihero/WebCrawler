@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <title>:: Picxa :: A Photographer Portfolio Template</title>
+
+  <!-- Normalize -->
+  <link rel="stylesheet" href="css/assets/normalize.css" type="text/css">
+
+  <!-- Bootstrap -->
+  <link href="css/assets/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Font-awesome.min -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Effet -->
+  <link rel="stylesheet" href="css/gallery/foundation.min.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/gallery/set1.css" />
+
+  <!-- Main Style -->
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+
+  <!-- Responsive Style -->
+  <link href="css/responsive.css" rel="stylesheet" type="text/css">
+
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <script src="js/assets/modernizr-2.8.3.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+  <!-- header -->
+
+  <header id="header" class="header">
+    <div class="container-fluid">
+      <hgroup>
+
+        <!-- logo -->
+        <h1>
+          <a href="index.html" title="Picxa">
+            <img src="images/logo.png" alt="Picxa" title="Picxa" />
+          </a>
+        </h1>
+        <!-- nav -->
+
+        <nav>
+          <div class="menu-expanded">
+            <div class="nav-icon">
+              <div id="menu" class="menu"></div>
+              <p>menu</p>
+            </div>
+            <div class="cross">
+              <span class="linee linea1"></span>
+              <span class="linee linea2"></span>
+              <span class="linee linea3"></span>
+            </div>
+            <div class="main-menu">
+              <ul>
+                <li class="active">
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="about.html">About</a>
+                </li>
+                <li>
+                  <a href="blog.html">blog</a>
+                </li>
+                <li>
+                  <a href="contact.html">contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- nav -->
+
+      </hgroup>
+    </div>
+  </header>
+
+  <!-- header -->
+  <main class="main-wrapper" id="container">
+
+    <!-- image Gallery -->
+
+    <div class="wrapper">
+      <div class="">
+        <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3 masonry">
+          <!-- 通过addData函数增加 -->
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <!-- Image Gallery -->
+
+
+
+  <!-- footer -->
+
+  <!-- jQuery -->
+
+  <script src="js/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/assets/jquery.min.js"><\/script>')</script>
+  <script src="js/assets/plugins.js" type="text/javascript"></script>
+  <script src="js/assets/bootstrap.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/mui.min.js"></script>
+  <script src="js/maps.js" type="text/javascript"></script>
+  <script src="js/custom.js" type="text/javascript"></script>
+  <script src="js/jquery.contact.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script>
+  <script src="js/gallery/masonry.pkgd.min.js" type="text/javascript"></script>
+  <script src="js/gallery/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <script src="js/gallery/jquery.infinitescroll.min.js" type="text/javascript"></script>
+  <script src="js/gallery/main.js" type="text/javascript"></script>
+  <script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+  <script type="text/javascript" charset="utf-8">
+    	mui.init()
+    	(function($) {
+    		
+			var success = function(response) {
+				addData(response);
+//				response = JSON.stringify(response);
+				var object = response.comments;
+				console.log(object[1].link);
+				
+			};
+			//设置全局beforeSend
+			$.ajaxSettings.beforeSend = function(xhr, setting) {
+				//beforeSend演示,也可在$.ajax({beforeSend:function(){}})中设置单个Ajax的beforeSend
+				console.log('beforeSend:::' + JSON.stringify(setting));
+			};
+			//设置全局complete
+			$.ajaxSettings.complete = function(xhr, status) {
+				console.log('complete:::' + status);
+			}
+			var ajax = function() {
+				//利用RunJS的Echo Ajax功能测试
+				var url = "http://192.168.1.172:8080/mysql.jsp"; 
+				//发送数据（可有可无）
+				var data = {
+				display:2
+				};
+				$.getJSON(url, data, success);
+			};
+			ajax();
+		})
+
+    function addData(jsonObject) {
+      var table = document.body.querySelector('.small-block-grid-2 medium-block-grid-3 large-block-grid-3 masonry');
+      var object = jsonObject.comments;
+      var strHtml = "";
+      for (var i = 0; i < object.length; i++) {
+        var li = document.createElement('li');
+        var aname = object[i].name;
+        li.className = 'masonry-item grid';
+        strHtml += '<figure class="effect-sarah"> <img src="' + object[i].link + '" alt="" />';
+        strHtml += '<figcaption>';
+        strHtml += '<h2>Photo <span>' + object[i].title + '</span></h2>';
+        strHtml += '<p>' + object[i].tag + '</p>';
+        strHtml += '<a href="details.html">View more</a> </figcaption>';
+        strHtml += '</figure>';
+        li.innerHTML = strHtml;
+        //下拉刷新，新纪录插到最前面；
+        table.insertBefore(li, table.firstChild);
+        //table.appendChild(li);
+        strHtml = "";
+      }
+    }
+    // ajax();
+
+  </script>
+</body>
+
+</html>

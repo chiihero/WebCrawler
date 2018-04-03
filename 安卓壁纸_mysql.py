@@ -1,4 +1,21 @@
 # -*- coding: utf-8 -*-
+
+# 数据库设计方案
+# CREATE TABLE `picture_info` (
+#   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+#   `name` varchar(40) NOT NULL COMMENT '图片名称',
+#   `title` varchar(20) NOT NULL COMMENT '图片标题',
+#   `link` varchar(120) NOT NULL COMMENT '图片链接',
+#   `tag` varchar(50) NOT NULL COMMENT '图片标签',
+#   `type` varchar(10) NOT NULL COMMENT '类型',
+#   `author` varchar(20) NOT NULL COMMENT '作者',
+#   `source` varchar(20) NOT NULL COMMENT '来源',
+#   `datetime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '创建时间',
+#   `dowmload` tinyint(1) NOT NULL DEFAULT '0' COMMENT '是否已经下载',
+#   `wrong` int(4) unsigned NOT NULL DEFAULT '0' COMMENT '下载错误次数',
+#   PRIMARY KEY (`id`)
+# ) ENGINE=InnoDB AUTO_INCREMENT=3519 DEFAULT CHARSET=utf8
+
 import os
 import sys
 import urllib.request
@@ -15,31 +32,31 @@ from time import time, sleep
 type = ['4e4d610cdf714d2966000000', '4e4d610cdf714d2966000003', '4e4d610cdf714d2966000002', '4e4d610cdf714d2966000007', '5109e04e48d5b9364ae9ac45', '4fb479f75ba1c65561000027', '4ef0a35c0569795756000000', '4fb47a195ba1c60ca5000222', '5109e05248d5b9368bb559dc', '4fb47a465ba1c65561000028', '4ef0a3330569795757000000', '4e4d610cdf714d2966000006', '4e4d610cdf714d2966000005', '4e4d610cdf714d2966000004', '4fb47a305ba1c60ca5000223', '4e4d610cdf714d2966000001', '4ef0a34e0569795757000001', '4e58c2570569791a19000000']
 type_name = ['美女','动漫','风景','游戏','文字','视觉','情感','设计','明星','物语','艺术','男人','机械','卡通','城市','动物','运动','影视']
 # 美女链接
-girl = type[0]
+girl = 0
 # 动漫链接
-animation = type[1]
+animation = 1
 # 风景链接
-landscape = type[2]
+landscape = 2
 # 游戏链接
-game = type[3]
+game = 3
 # 文字链接
-text = type[4]
+text = 4
 # 视觉链接
-vision = type[5]
+vision = 5
 # 情感链接
-emotion = type[6]
+emotion = 6
 # 设计链接
-creative = type[7]
+creative = 7
 # 明星链接
-celebrity = type[8]
+celebrity = 8
 # 物语链接
-stuff = type[9]
+stuff = 9
 # 艺术链接
-art = type[10]
+art = 10
 # 男人链接
-man = type[11]
+man = 11
 # 机械链接
-machine = type[12]
+machine = 12
 # 卡通链接
 cartoon = type[13]
 # 城市链接
@@ -68,11 +85,16 @@ url2 = 'http://service.picasso.adesk.com/v1/vertical/category/'
 # pool_size = multiprocessing.cpu_count() #进程数量
 pool_size =1
 # =======json—data数据========
-p_type = 'wallpaper'
+type_num = animation
+p_type = type_name[type_num]
 p_source='安卓壁纸'
-json_url = url1
-json_type = girl
+
+json_type = type[type_num]
 paper_type = 'wallpaper'      #wallpaper or vertical
+if paper_type == 'wallpaper':
+    json_url = url1
+else:
+    json_url = url2
 limit = '20'
 adult = 'false'
 first = '1'
@@ -82,7 +104,7 @@ order = 'hot'               #hot or new
 
 
 bigan_number = 0         #开始寻找json的参数
-end_number = 20000           #结束寻找json的参数
+end_number = 5000           #结束寻找json的参数
 delay_timne =0             #下载延迟时间
 
 # 下载地址搜索
@@ -97,12 +119,12 @@ bigan_tag_num=8             #删除开头字符数
 end_tag_num=0               #删除结尾字符数
 # 下载desc搜索
 bigan_desc ='"desc":'         #开始搜索关键字
-end_desc = '"}'               #结束搜索关键字
+end_desc = '"'               #结束搜索关键字
 bigan_desc_num=9              #删除开头字符数
 end_desc_num=0                #删除结尾字符数
 # 下载id搜索
 bigan_id ='"id": "'         #开始搜索关键字
-end_id = '",'               #结束搜索关键字
+end_id = '"'               #结束搜索关键字
 bigan_id_num=7              #删除开头字符数
 end_id_num=0                #删除结尾字符数
 ##################################变量区##############################
@@ -157,8 +179,8 @@ def find_json(find_i,json_url):
         # 以a的位置为起点的图片
         b_img = json_data.find(end_img,a_img)
         b_tag = json_data.find(end_tag,a_tag)
-        b_desc = json_data.find(end_desc, a_desc)
-        b_id = json_data.find(end_id, a_id)
+        b_desc = json_data.find(end_desc, a_desc+bigan_desc_num)
+        b_id = json_data.find(end_id, a_id+bigan_id_num)
         # json关键字名称输出
         img_down = json_data[a_img + bigan_img_num:b_img + end_img_num]
         img_tag = json_data[a_tag+bigan_tag_num:b_tag+end_tag_num]
@@ -176,7 +198,7 @@ def find_json(find_i,json_url):
         else:
             b_img=a_img+9
         # print("文件信息"+img_id+"\n"+img_down+"\n"+img_tag+"\n"+img_desc)  # 图片id图片标签
-        # print(img_down)#图片下载地址
+        # sleep(100)
         # 继续找
         a_img=json_data.find(bigan_img,b_img)
         a_tag = json_data.find(bigan_tag,b_tag)

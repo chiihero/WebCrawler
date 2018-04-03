@@ -1,4 +1,22 @@
 # -*- coding: utf-8 -*-
+
+# 数据库设计方案
+# CREATE TABLE `picture_info` (
+#   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+#   `name` varchar(40) NOT NULL COMMENT '图片名称',
+#   `title` varchar(20) NOT NULL COMMENT '图片标题',
+#   `link` varchar(120) NOT NULL COMMENT '图片链接',
+#   `tag` varchar(50) NOT NULL COMMENT '图片标签',
+#   `type` varchar(10) NOT NULL COMMENT '类型',
+#   `author` varchar(20) NOT NULL COMMENT '作者',
+#   `source` varchar(20) NOT NULL COMMENT '来源',
+#   `datetime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '创建时间',
+#   `dowmload` tinyint(1) NOT NULL DEFAULT '0' COMMENT '是否已经下载',
+#   `wrong` int(4) unsigned NOT NULL DEFAULT '0' COMMENT '下载错误次数',
+#   PRIMARY KEY (`id`)
+# ) ENGINE=InnoDB AUTO_INCREMENT=3519 DEFAULT CHARSET=utf8
+
+
 import os
 import sys
 import urllib.request
@@ -38,10 +56,10 @@ url1 = 'http://api.vc.bilibili.com/link_draw/v2/Photo/list?category='
 
 ##################################变量区##############################
 # pool_size = multiprocessing.cpu_count() #进程数量
-pool_size =2
+pool_size =1
 # =======json—data数据========
 json_url = url1
-category = cos
+category = girl
 p_type = 'cos'
 type = 'hot'               #hot or new
 page_size = '10'
@@ -97,15 +115,8 @@ def get_json(get_url):
         data = None
         req = urllib.request.Request(url, data, headers)
         response = urllib.request.urlopen(req, timeout=2)
-        # 将json转换成字典
-        # json_data = response.read()
-        # temp=json.loads(json_data)
-        # print(temp['res']['wallpaper'])
-        # return temp['res']['wallpaper']
-
     except http.client.error as e:
         print(e.reason)
-
     except urllib.error.HTTPError as e:
         print(e.reason)
 
@@ -117,12 +128,9 @@ def get_json(get_url):
 
 def find_json(find_i,json_url):
     ALLimg_info = [[]]  #建立空的数组
-    # json_data=get_json(json_url).decode('utf-8')
-    # json_data = get_json(json_url).decode('unicode_escape')
+
     json_data = get_json(json_url).decode('utf-8')
     # print(json_data)
-
-
     a_name = json_data.find(bigan_name)
     a_img = json_data.find(bigan_img)
     a_title =  json_data.find(bigan_title)
@@ -165,16 +173,18 @@ def find_json(find_i,json_url):
 def insert_img(img_info):
     for i in range(1, 21):
         for j in range(2,len(img_info[i])) :
+            p_name = img_info[i][j].split('/')[-1].split('.')[0]
+            print(p_name)
             # 查询数据
             sql = "SELECT name FROM picture_info WHERE link = '%s' "
             data = (img_info[i][j])
             cursor.execute(sql % data)
             if (cursor.fetchall()):
-                # print('重复数据')
+                print('重复数据')
                 continue
             else:
-                sql = "INSERT INTO picture_info (name, link, type, author, source) VALUES ( '%s', '%s', '%s' , '%s', '%s' )"
-                data = (img_info[i][1],img_info[i][j], p_type ,img_info[i][0],'哔哩哔哩' )
+                sql = "INSERT INTO picture_info (name, title, link, tag, type, author, source) VALUES ('%s', '%s', '%s', '%s', '%s' , '%s', '%s' )"
+                data = (p_name,img_info[i][1],img_info[i][j], p_type ,'美女',img_info[i][0],'哔哩哔哩' )
                 cursor.execute(sql % data)
                 connect.commit()
                 print('成功插入'+img_info[i][j])
@@ -184,6 +194,7 @@ def check_type(i):
     str_i = str(i)
     url = json_url + category + '&type='+type+ '&page_num='+str_i +'&page_size=' +page_size
     print(url)
+
     ALLfolder_temp = find_json(i, url)
     print("==============================================")
     # 判断类型

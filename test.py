@@ -18,6 +18,16 @@ except Exception as e:
 # 获取游标
 cursor = connect.cursor()
 # 插入数据
+# i =1
+# while (1):
+#     i = i+1
+#     sql = "INSERT INTO picture_info (name, link, tag) VALUES ( '%s', '%s', '%s' )"
+#     data = ('雷军'+str(i), 'baidu.com', '傻娃子'+str(i))
+#     cursor.execute(sql % data)
+#     connect.commit()
+#     print('成功插入', cursor.rowcount, '条数据')
+#     if i>5:
+#         break
 # # 查询数据
 # sql = "SELECT name FROM picture_info WHERE account = '%s' "
 # data = ('13512345678',)
@@ -32,6 +42,12 @@ cursor = connect.cursor()
 # cursor.execute(sql % data)
 # connect.commit()
 # print('成功修改', cursor.rowcount, '条数据')
+# 删除数据
+sql = "DELETE FROM picture_info WHERE source = '%s'"
+data = ('哔哩哔哩')
+cursor.execute(sql % data)
+connect.commit()
+print('成功删除', cursor.rowcount, '条数据')
 
 cursor.close()
 connect.close()
